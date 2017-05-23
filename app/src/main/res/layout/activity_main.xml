@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.cyris.databasebasicapplication.MainActivity">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/etName"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="SurName"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/etSurname"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Marks"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/etMarks"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/btAdd"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Show Student List"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/btShow"
+        />
+
+</LinearLayout>
